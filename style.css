@@ -1,0 +1,40 @@
+body {
+    color: white;
+    background-color: #73b9df; /* #97CCE8 */
+    border: 4px solid #70CA4D; /* #70CA4D */
+    margin: 25px;
+}
+
+a {
+    color: #70CA4D;
+}
+
+/* make both the title and navigation bar centered  */
+header, footer {
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+section {
+    margin: 50px;
+}
+
+section > p, li {
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    margin: 5px;
+}
+
+img {
+    float: right;
+    width: 200px;
+}
